@@ -1,0 +1,10 @@
+@media screen and (max-width: 550px){
+    div.review {
+        flex-direction: column !important;
+        text-align: center;
+
+        img{
+            margin-bottom: 15px;
+        }
+    }
+  }

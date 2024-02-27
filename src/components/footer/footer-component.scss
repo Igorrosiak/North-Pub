@@ -1,0 +1,40 @@
+.footer-component {
+  img {
+    width: 25%;
+  }
+}
+
+.social-icons{
+  a{
+    color: white;
+    svg{
+      margin: 5px;
+      width: 40px;
+      height: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-component {
+    img {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-component {
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer-component {
+      img {
+        width: 70%;
+      }
+    }
+  }

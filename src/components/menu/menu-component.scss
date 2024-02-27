@@ -1,0 +1,66 @@
+.icon-link {
+  cursor: pointer;
+}
+
+.alice-carousel__stage {
+  height: 70vh !important;
+}
+
+.control-arrow-left,
+.control-arrow-right{
+  top: 45%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.control-arrow-left{
+  left: 97%;
+}
+
+.control-arrow-right{
+  left: 3%;
+}
+
+div.menu-item {
+  .menu-informations {
+    height: 70vh;
+    width: 100%;
+    display: none !important;
+    transition-duration: 0.6s;
+    background-color: rgba(0, 0, 0, 0.171);
+  }
+
+  .menu-informations:hover {
+    background-color: rgba(0, 0, 0, 0.702);
+  }
+
+  .menu-image{
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+div.menu-item:hover {
+  .menu-informations {
+    display: flex !important;
+  }
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-component > h5 {
+    font-size: 1rem;
+    text-align: start !important;
+  }
+
+  .control-arrow-left{
+    left: 95%;
+  }
+  
+  .control-arrow-right{
+    left: 5%;
+  }
+}
